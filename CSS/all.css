@@ -1125,7 +1125,7 @@ h1 {
 /*Footer*/
 
 
-/* 
+
 
 footer {
     background-color: #221E1F;
@@ -1135,58 +1135,6 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
-} */
-
-
-
-footer {
-    background-color: #333; /* Dark background */
-    color: #fff; /* White text */
-    padding: 20px 0; /* Padding for top and bottom */
 }
 
-.footer-content {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out sections */
-    max-width: 1200px; /* Max width for footer content */
-    margin: 0 auto; /* Center footer */
-    padding: 0 20px; /* Padding for sides */
-}
 
-.footer-section {
-    flex: 1; /* Each section takes equal space */
-    margin: 0 10px; /* Margin between sections */
-}
-
-.footer-section h3 {
-    margin-bottom: 10px; /* Space below heading */
-}
-
-.footer-section p {
-    line-height: 1.5; /* Improve readability */
-}
-
-.footer-section ul {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove padding */
-}
-
-.footer-section ul li {
-    margin-bottom: 5px; /* Space between links */
-}
-
-.footer-section ul li a {
-    color: #fff; /* White links */
-    text-decoration: none; /* Remove underline */
-}
-
-.footer-section ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-.footer-bottom {
-    text-align: center; /* Center text */
-    margin-top: 20px; /* Space above */
-    border-top: 1px solid #444; /* Divider line */
-    padding: 10px 0; /* Padding above and below */
-}
