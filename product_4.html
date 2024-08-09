@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <title>Final Project</title> <!-- Title of the webpage, shown in the browser tab -->
+
+    <!-- Calling jQuery library for easier DOM manipulation and event handling -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Linking to the main JavaScript file that contains custom scripts for the application -->
+    <script src="./JS/main.js"></script> 
+</head>
+<body>
+    <header id="header">
+        <!-- Cart section to display items in the user's shopping cart -->
+        <section id="cart4">
+            <h2>Your Cart</h2>
+            <ul id="cart-display4">
+                <!-- Cart items will be dynamically displayed here using JavaScript -->
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <!-- Product detail section displaying the selected product -->
+        <section id="product-detail4">
+            <div id="product-image4">
+                <img src="./IMG/shoe 4.webp" alt="Reebok Club C 85 Vintage"> <!-- Image of the product -->
+            </div>
+            <div id="product-info4">
+                <h1>Reebok Club C 85 Vintage</h1> <!-- Product title -->
+                <p id="release-date4">Release Date: 1985</p> <!-- Release date of the product -->
+                <p id="description4">The Reebok Club C 85 Vintage is a classic sneaker that blends retro style with modern comfort. Featuring soft leather, a minimalist design, and a cushioned sole, it offers timeless appeal and everyday wearability.</p> <!-- Product description -->
+                <p id="price4">$75.00</p> <!-- Product price -->
+                <button id="add-to-cart4">Add to Cart</button> <!-- Button to add the product to the cart -->
+            </div>
+        </section>
+
+        <!-- Product description section with additional details about the sneaker -->
+        <section id="product-description4">
+            <h2>Product Description</h2>
+            <p>This sneaker is known for its sleek, clean design and exceptional comfort, making it a staple for any sneaker collection. The Club C 85 is perfect for both casual outings and athletic use.</p> <!-- Detailed product description -->
+        </section>
+
+        <!-- Related products section displaying additional items that users might be interested in -->
+        <section id="related-products4">
+            <h2>Related Products</h2>
+            <div id="related-list4">
+                <!-- Card for related product: Adidas Forum 84 High -->
+                <div id="card1">
+                    <img src="./IMG/shoe 1.jpeg" alt="Adidas Forum 84 High"> <!-- Image of the related product -->
+                    <h3>Adidas Forum 84 High</h3>
+                    <a href="./HTML/product_1.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Vans Unisex SK8-Hi MTE-1 -->
+                <div id="card2">
+                    <img src="./IMG/shoe 2.webp" alt="Vans Unisex SK8-Hi MTE-1"> <!-- Image of the related product -->
+                    <h3>Vans Unisex SK8-Hi MTE-1</h3>
+                    <a href="./HTML/product_2.html" id="btn2">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Converse Chuck 70 High -->
+                <div id="card3">
+                    <img src="./IMG/shoe 3.jpg" alt="Converse Chuck 70 High"> <!-- Image of the related product -->
+                    <h3>Converse Chuck 70 High</h3>
+                    <a href="./HTML/product_3.html" id="btn3">View Details</a> <!-- Link to related product -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Footer section can include contact information, social media links, etc. -->
+    </footer>
+</body>
+</html>

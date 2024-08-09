@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <title>Final Project</title> <!-- Title of the webpage, shown in the browser tab -->
+
+    <!-- Linking to jQuery library for easier DOM manipulation and event handling -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Linking to the main JavaScript file that contains custom scripts for the application -->
+    <script src="./JS/main.js"></script> 
+</head>
+<body>
+    <header id="header">
+        <!-- Cart section to display items in the user's shopping cart -->
+        <section id="cart1">
+            <h2>Your Cart</h2>
+            <ul id="cart-display1">
+                <!-- Cart items will be dynamically displayed here using JavaScript -->
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <!-- Product detail section displaying the selected product -->
+        <section id="product-detail1">
+            <div id="product-image1">
+                <img src="./IMG/shoe 1.jpeg" alt="Adidas Forum 84 High"> <!-- Image of the product -->
+            </div>
+            <div id="product-info1">
+                <h1>Adidas Forum 84 High</h1> <!-- Product title -->
+                <p id="release-date1">Release Date: 1984</p> <!-- Release date of the product -->
+                <p id="description1">The Adidas Forum 84 High is a classic high-top sneaker with vintage style, premium leather, and iconic three stripes, offering timeless appeal and ankle support.</p> <!-- Product description -->
+                <p id="price1">$120.00</p> <!-- Product price -->
+                <button id="add-to-cart1">Add to Cart</button> <!-- Button to add the product to the cart -->
+            </div>
+        </section>
+
+        <!-- Product description section with more details about the sneaker -->
+        <section id="product-description1">
+            <h2>Product Description</h2>
+            <p>This sneaker features a retro silhouette that captures the essence of the 80s basketball culture. With a padded collar and tongue, it provides comfort and support, making it perfect for both casual wear and on the court.</p> <!-- Detailed product description -->
+        </section>
+
+        <!-- Related products section displaying additional items that users might be interested in -->
+        <section id="related-products1">
+            <h2>Related Products</h2>
+            <div id="related-list1">
+                <!-- Card for related product: Vans Unisex SK8-Hi MTE-1 -->
+                <div id="card1">
+                    <img src="./IMG/shoe 2.webp" alt="Vans Unisex SK8-Hi MTE-1"> <!-- Image of the related product -->
+                    <h3>Vans Unisex SK8-Hi MTE-1</h3>
+                    <a href="./HTML/product_2.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Reebok Club C 85 Vintage -->
+                <div id="card1">
+                    <img src="./IMG/shoe 4.webp" alt="Reebok Club C 85 Vintage"> <!-- Image of the related product -->
+                    <h3>Reebok Club C 85 Vintage</h3>
+                    <a href="./HTML/product_4.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Adidas Run 70s -->
+                <div id="card1">
+                    <img src="./IMG/shoe 6.avif" alt="Adidas Run 70s"> <!-- Image of the related product -->
+                    <h3>Adidas Run 70s</h3>
+                    <a href="./HTML/product_6.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Footer section can include contact information, social media links, etc. -->
+    </footer>
+</body>
+</html>

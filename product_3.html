@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <title>Final Project</title> <!-- Title of the webpage, shown in the browser tab -->
+
+    <!-- Calling jQuery library for easier DOM manipulation and event handling -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Linking to the main JavaScript file that contains custom scripts for the application -->
+    <script src="./JS/main.js"></script> 
+</head>
+<body>
+    <header id="header">
+        <!-- Cart section to display items in the user's shopping cart -->
+        <section id="cart3">
+            <h2>Your Cart</h2>
+            <ul id="cart-display3">
+                <!-- Cart items will be dynamically displayed here using JavaScript -->
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <!-- Product detail section displaying the selected product -->
+        <section id="product-detail3">
+            <div id="product-image3">
+                <img src="./IMG/shoe 3.jpg" alt="Converse Chuck 70 High"> <!-- Image of the product -->
+            </div>
+            <div id="product-info3">
+                <h1>Converse Chuck 70 High</h1> <!-- Product title -->
+                <p id="release-date3">Release Date: 2013 (originally 1970s)</p> <!-- Release date of the product -->
+                <p id="description3">The Converse Chuck 70 High is a retro-inspired high-top sneaker that combines vintage design with modern comfort. It features durable canvas, improved cushioning, and the iconic All-Star logo, offering timeless style and enhanced support.</p> <!-- Product description -->
+                <p id="price3">$85.00</p> <!-- Product price -->
+                <button id="add-to-cart3">Add to Cart</button> <!-- Button to add the product to the cart -->
+            </div>
+        </section>
+
+        <!-- Product description section with additional details about the sneaker -->
+        <section id="product-description3">
+            <h2>Product Description</h2>
+            <p>This sneaker features a classic silhouette with premium materials, ensuring durability and comfort. The Chuck 70 High is perfect for casual outings or making a statement on the street.</p> <!-- Detailed product description -->
+        </section>
+
+        <!-- Related products section displaying additional items that users might be interested in -->
+        <section id="related-products3">
+            <h2>Related Products</h2>
+            <div id="related-list3">
+                <!-- Card for related product: Adidas Forum 84 High -->
+                <div id="card1">
+                    <img src="./IMG/shoe 1.jpeg" alt="Adidas Forum 84 High"> <!-- Image of the related product -->
+                    <h3>Adidas Forum 84 High</h3>
+                    <a href="./HTML/product_1.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Reebok Club C 85 Vintage -->
+                <div id="card2">
+                    <img src="./IMG/shoe 4.webp" alt="Reebok Club C 85 Vintage"> <!-- Image of the related product -->
+                    <h3>Reebok Club C 85 Vintage</h3>
+                    <a href="./HTML/product_4.html" id="btn2">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Adidas Run 70s -->
+                <div id="card3">
+                    <img src="./IMG/shoe 6.avif" alt="Adidas Run 70s"> <!-- Image of the related product -->
+                    <h3>Adidas Run 70s</h3>
+                    <a href="./HTML/product_6.html" id="btn3">View Details</a> <!-- Link to related product -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Footer section can include contact information, social media links, etc. -->
+    </footer>
+</body>
+</html>

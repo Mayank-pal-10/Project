@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <title>Final Project</title> <!-- Title of the webpage, displayed in the browser tab -->
+
+    <!-- Calling the jQuery library for easier DOM manipulation and event handling -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Linking to the main JavaScript file that contains custom scripts for the application -->
+    <script src="./JS/main.js"></script> 
+</head>
+<body>
+    <header id="header">
+        <!-- Cart section to display items in the user's shopping cart -->
+        <section id="cart5">
+            <h2>Your Cart</h2>
+            <ul id="cart-display5">
+                <!-- Cart items will be dynamically displayed here using JavaScript -->
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <!-- Product detail section displaying the selected product -->
+        <section id="product-detail5">
+            <div id="product-image5">
+                <img src="./IMG/shoe 5.avif" alt="Adidas Samba Classic"> <!-- Image of the product -->
+            </div>
+            <div id="product-info5">
+                <h1>Adidas Samba Classic</h1> <!-- Product title -->
+                <p id="release-date5">Release Date: 1950</p> <!-- Release date of the product -->
+                <p id="description5">The Adidas Samba Classic is an iconic sneaker known for its sleek design and versatility. It features a durable leather upper, signature three stripes, and a gum rubber sole, making it a timeless choice for both sports and casual wear.</p> <!-- Product description -->
+                <p id="price5">$100.00</p> <!-- Product price -->
+                <button id="add-to-cart5">Add to Cart</button> <!-- Button to add the product to the cart -->
+            </div>
+        </section>
+
+        <!-- Product description section with additional details about the sneaker -->
+        <section id="product-description5">
+            <h2>Product Description</h2>
+            <p>This sneaker has been a favorite since the 50s, originally designed for soccer players. Its stylish design and comfort make it a go-to for sneaker enthusiasts and casual wearers alike.</p> <!-- Detailed product description -->
+        </section>
+
+        <!-- Related products section displaying additional items that users might be interested in -->
+        <section id="related-products5">
+            <h2>Related Products</h2>
+            <div id="related-list5">
+                <!-- Card for related product: Adidas Forum 84 High -->
+                <div id="card1">
+                    <img src="./IMG/shoe 1.jpeg" alt="Adidas Forum 84 High"> <!-- Image of the related product -->
+                    <h3>Adidas Forum 84 High</h3>
+                    <a href="./HTML/product_1.html" id="btn1">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Vans Unisex SK8-Hi MTE-1 -->
+                <div id="card2">
+                    <img src="./IMG/shoe 2.webp" alt="Vans Unisex SK8-Hi MTE-1"> <!-- Image of the related product -->
+                    <h3>Vans Unisex SK8-Hi MTE-1</h3>
+                    <a href="./HTML/product_2.html" id="btn2">View Details</a> <!-- Link to related product -->
+                </div>
+                <!-- Card for related product: Adidas Run 70s -->
+                <div id="card3">
+                    <img src="./IMG/shoe 6.avif" alt="Adidas Run 70s"> <!-- Image of the related product -->
+                    <h3>Adidas Run 70s</h3>
+                    <a href="./HTML/product_6.html" id="btn3">View Details</a> <!-- Link to related product -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Footer section can include contact information, social media links, etc. -->
+    </footer>
+</body>
+</html>
